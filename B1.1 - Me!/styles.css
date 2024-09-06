@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.header {
+    background-color: #ffccff;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    color: #ff0099;
+    font-size: 36px;
+    margin: 0;
+}
+
+.content {
+    background-color: #ffffcc;
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid #ccc;
+}
+
+.content p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.line {
+    width: 60%;
+    height: 1px;
+    background-color: #999;
+    margin: 20px auto;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: #cc0066;
+}
+
+.green {
+    color: green;
+}
