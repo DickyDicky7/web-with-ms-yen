@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'WeddingK&T';
+    src: url('UTM\ Wedding\ K&T.ttf');
+}
+body{
+    font-family: 'Times New Roman', serif;
+    background-image: url('nen-hoa-hong.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 70% 70%;
+}
+.h1 {
+    font-family: 'WeddingK&T';
+    color: pink;
+    font-size: 4rem;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 35%;
+}
+.right {
+    width: 35%;
+}
+.center {
+    width: 30%;
+}
+ul.listCustom0 {
+    margin-left: 10px;
+    list-style-image: url('bullet-hoa-tim.png');
+}
+ul.listCustom1 {
+    margin-left: 10px;
+    list-style-image: url('bullet-tron-hong.png');
+}
+span.highlight1 {
+    background-color: rgb(255, 43, 205);
+    color: white;
+}
