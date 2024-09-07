@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #fff;
+    padding: 5px;
+    color: #333;
+}
+
+.storyContainer {
+    width: 100%;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.15); */
+}
+.storyParagraph {
+    line-height: 1.8;
+
+}
+.storyImage {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.storyH1 {
+    text-align: center;
+    color: rgb(237, 45, 45);
+    border: 4px solid rgb(28, 204, 19);
+}
+.commentContainer {
+    width: 100%;
+
+}
+.commentParagraph {
+    line-height: 1.3;
+}
+.commentImage {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 90px;
+    height: 90px;
+    align-self: center;
+}
+.commentBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.commentH1 {
+    text-align: end;
+    color: white;
+    background-color: rgb(24, 230, 24);
+}
