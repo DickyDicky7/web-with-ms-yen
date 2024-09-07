@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: green;
+            margin-bottom: 20px;
+        }
+
+        .subject {
+            margin-bottom: 10px;
+        }
+
+        .subject-title {
+            display: inline-block;
+            font-weight: bold;
+            color: red;
+        }
+
+        .subject-content {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .code-block {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.5;
+            color: blue;
+        }
+
+        .code-block pre {
+            margin: 0;
+            padding: 0;
+        }
+
+        .code-block pre code {
+            display: block;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Định dạng văn bản</h1>
+
+        <div class="subject">
+            <span class="subject-title">Hóa học:</span>
+            <span class="subject-content">Nước: H₂O; Axit Sunfuric: H2SO4</span>
+        </div>
+
+        <div class="subject">
+            <span class="subject-title">Toán học:</span>
+            <span class="subject-content">Phương trình bậc 2: ax2 + bx + c = 0</span>
+        </div>
+
+        <div class="subject">
+            <span class="subject-title">Tin học:</span>
+            <span class="subject-content">Vòng lặp for:</span>
+        </div>
+
+        <div class="code-block">
+            <pre><code>
+                int tong = 0; <br>
+                for(int i = 1; i <= 10; i++) <br>
+                    tong += i; <br>
+                    printf("Tong cac so tu 1 => 10 la: %d\n",tong);
+            </code></pre>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
