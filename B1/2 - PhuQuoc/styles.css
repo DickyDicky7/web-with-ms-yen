@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.root {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/hoang-hon-phu-quoc.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.a {
+    color: yellow;
+    max-width: fit-content;
+    margin-inline: auto;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.b {
+    color: #ff4d4d;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.c {
+    color: #ffa500;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.d {
+    color: #4CAF50;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.e {
+    color: #800080;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.t {
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px black;
+    max-width: 1000px;
+}
